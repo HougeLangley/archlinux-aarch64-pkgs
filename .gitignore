@@ -1,0 +1,14 @@
+# 构建产物与缓存
+src/
+pkg/
+*.pkg.tar.*
+*.tar.xz
+*.tar.zst
+*.deb
+*.AppImage
+*.log
+last-run.json
+
+# 上游内核源码（构建时自动下载）
+linux-*.tar.xz
+patch-*.xz
